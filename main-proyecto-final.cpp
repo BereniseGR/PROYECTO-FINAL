@@ -72,7 +72,7 @@ recorrido3 = false,
 recorrido4 = false;
 
 
-//Keyframes (Manipulación y dibujo)
+//Keyframes (ManipulaciÃ³n y dibujo)
 float	posX = 0.0f,
 posY = 0.0f,
 posZ = 0.0f,
@@ -193,7 +193,7 @@ void animate(void)
 		}
 	}
 
-	//Vehículo
+	//VehÃ­culo
 	if (animacion)
 	{
 		movAuto_z += 3.0f;
@@ -283,13 +283,6 @@ int main()
 	// load models
 	// -----------
 	Model piso("resources/objects/piso/piso.obj");
-	Model botaDer("resources/objects/Personaje/bota.obj");
-	Model piernaDer("resources/objects/Personaje/piernader.obj");
-	Model piernaIzq("resources/objects/Personaje/piernader.obj");
-	Model torso("resources/objects/Personaje/torso.obj");
-	Model brazoDer("resources/objects/Personaje/brazoder.obj");
-	Model brazoIzq("resources/objects/Personaje/brazoizq.obj");
-	Model cabeza("resources/objects/Personaje/cabeza.obj");
 	Model carro("resources/objects/lambo/carroceria.obj");
 	Model llanta("resources/objects/lambo/Wheel.obj");
 	Model casaVieja("resources/objects/casa/OldHouse.obj");
@@ -302,7 +295,7 @@ int main()
 	//ModelAnim ninja("resources/objects/ZombieWalk/ZombieWalk.dae");
 	//ninja.initShaders(animShader.ID);
 
-	//Inicialización de KeyFrames
+	//InicializaciÃ³n de KeyFrames
 	for (int i = 0; i < MAX_FRAMES; i++)
 	{
 		KeyFrame[i].posX = 0;
@@ -351,7 +344,7 @@ int main()
 		//staticShader.setVec3("pointLight[0].specular", glm::vec3(1.0f, 1.0f, 0.7f));
 		staticShader.setFloat("pointLight[0].constant", 0.00000000001f); //atenuacion de la luz de foquito controlan la intensidad (mayor control) 
 		staticShader.setFloat("pointLight[0].linear", 0.09f);  //intensidad (menos control)
-		staticShader.setFloat("pointLight[0].quadratic", 0.000032f); //mayor distancia mientas mas pequeño la atenuacion es menor 
+		staticShader.setFloat("pointLight[0].quadratic", 0.000032f); //mayor distancia mientas mas pequeÃ±o la atenuacion es menor 
 		staticShader.setFloat("material_shininess", 32.0f);
 
 		//Cambio de color
@@ -527,7 +520,7 @@ int main()
 		staticShader.setMat4("model", model);
 		//cabeza.Draw(staticShader);
 		// -------------------------------------------------------------------------------------------------------------------------
-		// Caja Transparente --- Siguiente Práctica
+		// Caja Transparente --- Siguiente PrÃ¡ctica
 		// -------------------------------------------------------------------------------------------------------------------------
 		/*glEnable(GL_BLEND);
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
