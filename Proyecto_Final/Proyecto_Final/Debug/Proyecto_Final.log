@@ -1,0 +1,12 @@
+﻿  Final.cpp
+C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Proyecto_Final\include\shader_m.h(44,40): warning C4101: 'e': variable local sin referencia
+C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Proyecto_Final\include\modelAnim.h(104,44): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Proyecto_Final\include\modelAnim.h(520,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Proyecto_Final\Final.cpp(645,11): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Proyecto_Final\Final.cpp(646,11): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Proyecto_Final\Final.cpp(650,16): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Proyecto_Final\Final.cpp(651,16): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Proyecto_Final\Final.cpp(653,10): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Proyecto_Final\Final.cpp(654,10): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Proyecto_Final\Final.cpp(662,28): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  Proyecto_Final.vcxproj -> C:\Users\Navih M\Documents\Visual Studio 2022\Proyectos\Proyecto_Final\Proyecto_Final\Debug\Proyecto_Final.exe
