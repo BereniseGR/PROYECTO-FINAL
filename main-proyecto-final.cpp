@@ -288,6 +288,10 @@ int main()
 	Model casaVieja("resources/objects/casa/OldHouse.obj");
 	//Model cubo("resources/objects/cubo/cube02.obj");
 	Model casaDoll("resources/objects/casa/DollHouse.obj");
+	
+	Model igloo("resources/objects/Igloo/igloo.obj");
+	Model grada("resources/objects/Grada/grada.obj");
+	Model torniquete("resources/objects/Navih/Torniquete/torniquete.obj");
 
 	//ModelAnim animacionPersonaje("resources/objects/Personaje1/PersonajeBrazo.dae");
 	//animacionPersonaje.initShaders(animShader.ID);
@@ -435,6 +439,21 @@ int main()
 		model = glm::scale(model, glm::vec3(5.0f));
 		staticShader.setMat4("model", model);
 		//casaVieja.Draw(staticShader);
+		
+		model = glm::translate(glm::mat4(1.0f), glm::vec3(250.0f, 10.0f, 250.0f));
+		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, -1.0f, 0.0f));
+		model = glm::scale(model, glm::vec3(0.8f));
+		staticShader.setMat4("model", model);
+		igloo.Draw(staticShader);
+
+
+		//Area de Delfines
+		model = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 10.0f, 200.0f));
+		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::scale(model, glm::vec3(0.01f));
+		staticShader.setMat4("model", model);
+		grada.Draw(staticShader);
+		
 		
 		
 		
