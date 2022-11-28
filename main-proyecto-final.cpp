@@ -435,6 +435,39 @@ int main()
 		model = glm::scale(model, glm::vec3(5.0f));
 		staticShader.setMat4("model", model);
 		//casaVieja.Draw(staticShader);
+		
+		
+		
+		//Area de torniquetes
+		model = glm::translate(glm::mat4(1.0f), glm::vec3(-300.0f, 10.0f, -325.0f));
+		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, -1.0f, 0.0f));
+		model = glm::scale(model, glm::vec3(0.0002f));
+		staticShader.setMat4("model", model);
+		torniquete.Draw(staticShader);
+
+		model = glm::translate(glm::mat4(1.0f), glm::vec3(-300.0f, 10.0f, -300.0f));
+		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, -1.0f, 0.0f));
+		model = glm::scale(model, glm::vec3(0.0002f));
+		staticShader.setMat4("model", model);
+		torniquete.Draw(staticShader);
+
+		model = glm::translate(glm::mat4(1.0f), glm::vec3(-300.0f, 10.0f, -275.0f));
+		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, -1.0f, 0.0f));
+		model = glm::scale(model, glm::vec3(0.0002f));
+		staticShader.setMat4("model", model);
+		torniquete.Draw(staticShader);
+
+		model = glm::translate(glm::mat4(1.0f), glm::vec3(-300.0f, 10.0f, -250.0f));
+		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, -1.0f, 0.0f));
+		model = glm::scale(model, glm::vec3(0.0002f));
+		staticShader.setMat4("model", model);
+		torniquete.Draw(staticShader);
+		
+		
+		
+		
+		
+		
 
 		// -------------------------------------------------------------------------------------------------------------------------
 		// Carro
